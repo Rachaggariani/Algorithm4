@@ -1,0 +1,13 @@
+ Algorithm exercicechekpoint ( var t: Array_of Integer)
+ var  x,i,j:Integer;
+ BEGIN 
+   FOR i FROM 0 to To t.length-1 STEP 1 DO
+   X=T[i];
+   j=j-1;
+   WHILE ((j>=0)AND(t[i]>x))DO 
+    T[j+1]=t[j];
+    j=j-1;
+  END_WHILE
+  T[j+1]=x;
+  END_FOR
+  END
